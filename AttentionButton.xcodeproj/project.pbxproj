@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AD082321F1D3470023F214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD082221F1D3470023F214 /* AppDelegate.m */; };
+		84AD082621F1D3470023F214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD082521F1D3470023F214 /* ViewController.m */; };
+		84AD082921F1D3470023F214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD082721F1D3470023F214 /* Main.storyboard */; };
+		84AD082B21F1D3480023F214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD082A21F1D3480023F214 /* Assets.xcassets */; };
+		84AD082E21F1D3480023F214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD082C21F1D3480023F214 /* LaunchScreen.storyboard */; };
+		84AD083121F1D3480023F214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD083021F1D3480023F214 /* main.m */; };
+		84AD083B21F1D3480023F214 /* AttentionButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD083A21F1D3480023F214 /* AttentionButtonTests.m */; };
+		84AD084621F1D3480023F214 /* AttentionButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD084521F1D3480023F214 /* AttentionButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AD083721F1D3480023F214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AD081621F1D3470023F214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AD081D21F1D3470023F214;
+			remoteInfo = AttentionButton;
+		};
+		84AD084221F1D3480023F214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AD081621F1D3470023F214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AD081D21F1D3470023F214;
+			remoteInfo = AttentionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84AD081E21F1D3470023F214 /* AttentionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttentionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AD082121F1D3470023F214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84AD082221F1D3470023F214 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84AD082421F1D3470023F214 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84AD082521F1D3470023F214 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84AD082821F1D3470023F214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AD082A21F1D3480023F214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AD082D21F1D3480023F214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AD082F21F1D3480023F214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AD083021F1D3480023F214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AD083621F1D3480023F214 /* AttentionButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttentionButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AD083A21F1D3480023F214 /* AttentionButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttentionButtonTests.m; sourceTree = "<group>"; };
+		84AD083C21F1D3480023F214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AD084121F1D3480023F214 /* AttentionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttentionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AD084521F1D3480023F214 /* AttentionButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttentionButtonUITests.m; sourceTree = "<group>"; };
+		84AD084721F1D3480023F214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AD081B21F1D3470023F214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD083321F1D3480023F214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD083E21F1D3480023F214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AD081521F1D3470023F214 = {
+			isa = PBXGroup;
+			children = (
+				84AD082021F1D3470023F214 /* AttentionButton */,
+				84AD083921F1D3480023F214 /* AttentionButtonTests */,
+				84AD084421F1D3480023F214 /* AttentionButtonUITests */,
+				84AD081F21F1D3470023F214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AD081F21F1D3470023F214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AD081E21F1D3470023F214 /* AttentionButton.app */,
+				84AD083621F1D3480023F214 /* AttentionButtonTests.xctest */,
+				84AD084121F1D3480023F214 /* AttentionButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AD082021F1D3470023F214 /* AttentionButton */ = {
+			isa = PBXGroup;
+			children = (
+				84AD082121F1D3470023F214 /* AppDelegate.h */,
+				84AD082221F1D3470023F214 /* AppDelegate.m */,
+				84AD082421F1D3470023F214 /* ViewController.h */,
+				84AD082521F1D3470023F214 /* ViewController.m */,
+				84AD082721F1D3470023F214 /* Main.storyboard */,
+				84AD082A21F1D3480023F214 /* Assets.xcassets */,
+				84AD082C21F1D3480023F214 /* LaunchScreen.storyboard */,
+				84AD082F21F1D3480023F214 /* Info.plist */,
+				84AD083021F1D3480023F214 /* main.m */,
+			);
+			path = AttentionButton;
+			sourceTree = "<group>";
+		};
+		84AD083921F1D3480023F214 /* AttentionButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AD083A21F1D3480023F214 /* AttentionButtonTests.m */,
+				84AD083C21F1D3480023F214 /* Info.plist */,
+			);
+			path = AttentionButtonTests;
+			sourceTree = "<group>";
+		};
+		84AD084421F1D3480023F214 /* AttentionButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84AD084521F1D3480023F214 /* AttentionButtonUITests.m */,
+				84AD084721F1D3480023F214 /* Info.plist */,
+			);
+			path = AttentionButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AD081D21F1D3470023F214 /* AttentionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AD084A21F1D3480023F214 /* Build configuration list for PBXNativeTarget "AttentionButton" */;
+			buildPhases = (
+				84AD081A21F1D3470023F214 /* Sources */,
+				84AD081B21F1D3470023F214 /* Frameworks */,
+				84AD081C21F1D3470023F214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttentionButton;
+			productName = AttentionButton;
+			productReference = 84AD081E21F1D3470023F214 /* AttentionButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AD083521F1D3480023F214 /* AttentionButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AD084D21F1D3480023F214 /* Build configuration list for PBXNativeTarget "AttentionButtonTests" */;
+			buildPhases = (
+				84AD083221F1D3480023F214 /* Sources */,
+				84AD083321F1D3480023F214 /* Frameworks */,
+				84AD083421F1D3480023F214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AD083821F1D3480023F214 /* PBXTargetDependency */,
+			);
+			name = AttentionButtonTests;
+			productName = AttentionButtonTests;
+			productReference = 84AD083621F1D3480023F214 /* AttentionButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84AD084021F1D3480023F214 /* AttentionButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AD085021F1D3480023F214 /* Build configuration list for PBXNativeTarget "AttentionButtonUITests" */;
+			buildPhases = (
+				84AD083D21F1D3480023F214 /* Sources */,
+				84AD083E21F1D3480023F214 /* Frameworks */,
+				84AD083F21F1D3480023F214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AD084321F1D3480023F214 /* PBXTargetDependency */,
+			);
+			name = AttentionButtonUITests;
+			productName = AttentionButtonUITests;
+			productReference = 84AD084121F1D3480023F214 /* AttentionButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AD081621F1D3470023F214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Jhinn1n;
+				TargetAttributes = {
+					84AD081D21F1D3470023F214 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					84AD083521F1D3480023F214 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 84AD081D21F1D3470023F214;
+					};
+					84AD084021F1D3480023F214 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 84AD081D21F1D3470023F214;
+					};
+				};
+			};
+			buildConfigurationList = 84AD081921F1D3470023F214 /* Build configuration list for PBXProject "AttentionButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AD081521F1D3470023F214;
+			productRefGroup = 84AD081F21F1D3470023F214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AD081D21F1D3470023F214 /* AttentionButton */,
+				84AD083521F1D3480023F214 /* AttentionButtonTests */,
+				84AD084021F1D3480023F214 /* AttentionButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AD081C21F1D3470023F214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AD082E21F1D3480023F214 /* LaunchScreen.storyboard in Resources */,
+				84AD082B21F1D3480023F214 /* Assets.xcassets in Resources */,
+				84AD082921F1D3470023F214 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD083421F1D3480023F214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD083F21F1D3480023F214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AD081A21F1D3470023F214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AD082621F1D3470023F214 /* ViewController.m in Sources */,
+				84AD083121F1D3480023F214 /* main.m in Sources */,
+				84AD082321F1D3470023F214 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD083221F1D3480023F214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AD083B21F1D3480023F214 /* AttentionButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD083D21F1D3480023F214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AD084621F1D3480023F214 /* AttentionButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AD083821F1D3480023F214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AD081D21F1D3470023F214 /* AttentionButton */;
+			targetProxy = 84AD083721F1D3480023F214 /* PBXContainerItemProxy */;
+		};
+		84AD084321F1D3480023F214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AD081D21F1D3470023F214 /* AttentionButton */;
+			targetProxy = 84AD084221F1D3480023F214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AD082721F1D3470023F214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AD082821F1D3470023F214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AD082C21F1D3480023F214 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AD082D21F1D3480023F214 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AD084821F1D3480023F214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84AD084921F1D3480023F214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AD084B21F1D3480023F214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AttentionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttentionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AD084C21F1D3480023F214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AttentionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttentionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84AD084E21F1D3480023F214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AttentionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttentionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttentionButton.app/AttentionButton";
+			};
+			name = Debug;
+		};
+		84AD084F21F1D3480023F214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AttentionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttentionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttentionButton.app/AttentionButton";
+			};
+			name = Release;
+		};
+		84AD085121F1D3480023F214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AttentionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttentionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AttentionButton;
+			};
+			name = Debug;
+		};
+		84AD085221F1D3480023F214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AttentionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AttentionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AttentionButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AD081921F1D3470023F214 /* Build configuration list for PBXProject "AttentionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AD084821F1D3480023F214 /* Debug */,
+				84AD084921F1D3480023F214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AD084A21F1D3480023F214 /* Build configuration list for PBXNativeTarget "AttentionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AD084B21F1D3480023F214 /* Debug */,
+				84AD084C21F1D3480023F214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AD084D21F1D3480023F214 /* Build configuration list for PBXNativeTarget "AttentionButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AD084E21F1D3480023F214 /* Debug */,
+				84AD084F21F1D3480023F214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AD085021F1D3480023F214 /* Build configuration list for PBXNativeTarget "AttentionButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AD085121F1D3480023F214 /* Debug */,
+				84AD085221F1D3480023F214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AD081621F1D3470023F214 /* Project object */;
+}
